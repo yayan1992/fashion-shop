@@ -1,0 +1,10 @@
+# Single-page routing for Apache and LiteSpeed hosts (e.g. Hostinger web
+# hosting): serve real files as they are, send every other path to the app.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>

@@ -1,0 +1,111 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@fontsource-variable/archivo/wdth.css";
+
+@theme {
+  --font-sans: "Archivo Variable", ui-sans-serif, system-ui, sans-serif;
+
+  /* House palette */
+  --color-plaster: #eeeae3;
+  --color-bone: #e2dbce;
+  --color-chalk: #f8f6f1;
+  --color-stone: #8f887c;
+  --color-graphite: #2e2d2a;
+  --color-ink: #121110;
+
+  /* Semantic tokens. The clothing rail reads these, so a section can re-tone
+     everything inside it by overriding them (see .tone-ink below). */
+  --color-background: var(--color-plaster);
+  --color-foreground: var(--color-ink);
+  --color-muted-foreground: #6b665d;
+  --color-card: var(--color-chalk);
+  --color-card-foreground: var(--color-ink);
+  --color-border: #d3ccbf;
+  --color-ring: var(--color-ink);
+
+  --ease-settle: cubic-bezier(0.22, 0.85, 0.3, 1);
+}
+
+@layer base {
+  html {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-sans);
+    font-stretch: 100%;
+    font-feature-settings: "ss01";
+    min-height: 100svh;
+  }
+  ::selection {
+    background: var(--color-ink);
+    color: var(--color-chalk);
+  }
+  :focus-visible {
+    outline: 1.5px solid var(--color-ring);
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+/* Re-toned sections. Utilities resolve these variables where they are used. */
+.tone-ink {
+  --color-background: var(--color-ink);
+  --color-foreground: var(--color-chalk);
+  --color-muted-foreground: #a39d92;
+  --color-border: #34322e;
+  --color-ring: var(--color-chalk);
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+.tone-bone {
+  --color-background: var(--color-bone);
+  --color-muted-foreground: #5f5a51;
+  --color-border: #c9c1b3;
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+/* Type: one family, three widths. */
+@utility type-wide {
+  font-stretch: 125%;
+}
+@utility type-narrow {
+  font-stretch: 72%;
+}
+@utility label {
+  font-stretch: 78%;
+  font-size: 0.6875rem;
+  line-height: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* An underline that draws in from the left. */
+@utility link-draw {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 420ms var(--ease-settle);
+  &:hover,
+  &:focus-visible,
+  &[aria-current="page"] {
+    background-size: 100% 1px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}

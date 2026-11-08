@@ -1,0 +1,34 @@
+# Dependencies and build output
+node_modules
+dist
+dist-demo
+*.tsbuildinfo
+
+# Test output
+test-results
+playwright-report
+
+# Local configuration and secrets: never commit
+.env
+.env.local
+.env*.local
+supabase/.env
+supabase/functions/.env
+*.pem
+
+# Supabase CLI state for your linked project
+supabase/.temp
+supabase/.branches
+
+# Full-size image sources (the site uses the optimised copies in public/media)
+assets/*
+!assets/README.md
+
+# The original supplied component files (the store's copies live in src/)
+reference/
+
+# Editors and operating systems
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea

@@ -1,0 +1,200 @@
+{
+  "detail-bone-tee": {
+    "width": 1856,
+    "height": 2304,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/media/editorial/detail-bone-tee-640.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/media/editorial/detail-bone-tee-1080.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/media/editorial/detail-bone-tee-1600.webp"
+      },
+      {
+        "width": 1856,
+        "src": "/media/editorial/detail-bone-tee-1856.webp"
+      }
+    ]
+  },
+  "detail-fleece": {
+    "width": 1856,
+    "height": 2304,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/media/editorial/detail-fleece-640.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/media/editorial/detail-fleece-1080.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/media/editorial/detail-fleece-1600.webp"
+      },
+      {
+        "width": 1856,
+        "src": "/media/editorial/detail-fleece-1856.webp"
+      }
+    ]
+  },
+  "detail-lambswool": {
+    "width": 2048,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/media/editorial/detail-lambswool-640.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/media/editorial/detail-lambswool-1080.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/media/editorial/detail-lambswool-1600.webp"
+      },
+      {
+        "width": 2048,
+        "src": "/media/editorial/detail-lambswool-2048.webp"
+      }
+    ]
+  },
+  "detail-mariner": {
+    "width": 1856,
+    "height": 2304,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/media/editorial/detail-mariner-640.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/media/editorial/detail-mariner-1080.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/media/editorial/detail-mariner-1600.webp"
+      },
+      {
+        "width": 1856,
+        "src": "/media/editorial/detail-mariner-1856.webp"
+      }
+    ]
+  },
+  "detail-oxford": {
+    "width": 2048,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/media/editorial/detail-oxford-640.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/media/editorial/detail-oxford-1080.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/media/editorial/detail-oxford-1600.webp"
+      },
+      {
+        "width": 2048,
+        "src": "/media/editorial/detail-oxford-2048.webp"
+      }
+    ]
+  },
+  "look-black-tee": {
+    "width": 1856,
+    "height": 2304,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/media/editorial/look-black-tee-640.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/media/editorial/look-black-tee-1080.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/media/editorial/look-black-tee-1600.webp"
+      },
+      {
+        "width": 1856,
+        "src": "/media/editorial/look-black-tee-1856.webp"
+      }
+    ]
+  },
+  "look-moss-rust": {
+    "width": 2048,
+    "height": 1143,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/media/editorial/look-moss-rust-640.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/media/editorial/look-moss-rust-1080.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/media/editorial/look-moss-rust-1600.webp"
+      },
+      {
+        "width": 2048,
+        "src": "/media/editorial/look-moss-rust-2048.webp"
+      }
+    ]
+  },
+  "look-oxford-hoodie": {
+    "width": 2048,
+    "height": 1374,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/media/editorial/look-oxford-hoodie-640.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/media/editorial/look-oxford-hoodie-1080.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/media/editorial/look-oxford-hoodie-1600.webp"
+      },
+      {
+        "width": 2048,
+        "src": "/media/editorial/look-oxford-hoodie-2048.webp"
+      }
+    ]
+  },
+  "look-stripe-oat": {
+    "width": 1856,
+    "height": 2304,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/media/editorial/look-stripe-oat-640.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/media/editorial/look-stripe-oat-1080.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/media/editorial/look-stripe-oat-1600.webp"
+      },
+      {
+        "width": 1856,
+        "src": "/media/editorial/look-stripe-oat-1856.webp"
+      }
+    ]
+  }
+}
